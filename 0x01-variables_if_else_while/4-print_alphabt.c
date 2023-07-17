@@ -14,9 +14,12 @@ int main(void)
 
 	while (Lch <= 'z')
 	{
-		if (Lch == 'q' || lch == 'e')
-			ch++;
+		if (Lch == 'q' || Lch == 'e')
+			Lch++;
 		putchar(Lch);
 		Lch++;
 	}
+	putchar('\n');
+
+	return (0);
 }
