@@ -1,7 +1,7 @@
 #include"main.h"
 
 /**
- * _islower - check the code.
+ * _isalpha - check the code.
  *
  *@c: cheks input of function
  *
