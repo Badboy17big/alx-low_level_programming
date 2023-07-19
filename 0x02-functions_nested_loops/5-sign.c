@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * print_sgin -  Entry point
+ * print_sign -  Entry point
  *
  * @n: using sizeof to print the size of various types on the computer
  *
@@ -9,7 +9,7 @@
 */
 
 int print_sign(int n)
-{	
+{
 	if (n > 0)
 	{
 		_putchar(43);
@@ -20,7 +20,7 @@ int print_sign(int n)
 		_putchar(48);
 		return (0);
 	}
-        else
+	else
 	{
 		_putchar(45);
 		return (-1);
