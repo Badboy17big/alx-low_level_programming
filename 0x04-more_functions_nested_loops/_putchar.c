@@ -2,12 +2,13 @@
 #include "main.h"
 
 /**
- * _putchar - writes the character c to stdout
- * @c: the character to print 
+ * _putchar -  Entry point
  *
- * Return: on success
- *	   on error, -1 is returend, and errno is set appropriately.
- */
+ * @c: using sizeof to print the size of various types on the computer
+ *
+ * Return: on success 1.
+ *	on error, -1 is returned
+*/
 int _putchar(char c)
 {
 	return (write(1, &c, 1));
